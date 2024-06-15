@@ -3,6 +3,6 @@
 def call(){ 
 	withSonarQubeEnv(sq)
   {
-     Sh ‘./gradlew sonarqube’
+     Sh "./gradlew sonarqube"
   }
 }
